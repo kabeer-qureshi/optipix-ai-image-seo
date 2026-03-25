@@ -1,0 +1,91 @@
+/* Optipix AI Image SEO Premium UI */
+.optipix-saas-wrap { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; max-width: 100%; margin: 30px 20px 0 0; color: #333; }
+.optipix-header { display: flex; justify-content: start; align-items: center; margin-bottom: 25px; gap:20px; }
+.optipix-header .optipix-logo{ width:70px;}
+.optipix-header h2 { font-size: 24px; font-weight: 700; margin: 0; }
+.optipix-card { background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); padding: 30px; margin-bottom: 30px; border: 1px solid #f0f0f0; }
+
+/* Forms */
+.optipix-form-row { margin-bottom: 20px; }
+.optipix-input-group label { display: block; font-weight: 600; margin-bottom: 8px; color: #495057; }
+.optipix-input-group input, .optipix-input-group textarea { width: 100%; padding: 12px 15px; border: 1px solid #ced4da; border-radius: 8px; font-size: 14px; background: #f8f9fa; transition: border-color 0.3s; }
+.optipix-input-group input:focus, .optipix-input-group textarea:focus { border-color: #6366f1; outline: none; box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1); }
+
+/* Buttons */
+.optipix-form-actions { display: flex; justify-content: flex-end; margin-bottom: 50px; }
+.optipix-btn-primary { background: #6366f1; color: white; border: none; padding: 10px 24px; border-radius: 8px; font-size: 15px; cursor: pointer; font-weight: 500; transition: 0.3s; }
+.optipix-btn-primary:hover { background: #4f46e5; transform: translateY(-1px); }
+.optipix-btn-secondary { background: #e0e7ff; color: #4f46e5; border: none; padding: 8px 16px; border-radius: 8px; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+.optipix-btn-outline { background: transparent; border: 1px solid #ced4da; padding: 8px 16px; border-radius: 8px; cursor: pointer; }
+
+/* Table Design */
+.optipix-table-toolbar { display: flex; justify-content: space-between; margin-bottom: 20px; }
+.optipix-table-filters { display: flex; align-items: center; }
+.optipix-table { width: 100%; border-collapse: collapse; }
+.optipix-table th { text-align: left; padding: 15px; color: #6c757d; font-size: 13px; border-bottom: 2px solid #f8f9fa; text-transform: uppercase; }
+.optipix-table td { padding: 15px; border-bottom: 1px solid #f8f9fa; vertical-align: middle; }
+.optipix-img-thumb { width: 40px; height: 40px; background: #f0f2f5; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #adb5bd; overflow: hidden; }
+.optipix-img-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.optipix-text-muted { color: #6c757d; font-size: 13px; }
+
+/* Badges */
+.optipix-badge { padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.optipix-badge-success { background: #d1fae5; color: #059669; }
+.optipix-badge-danger { background: #fee2e2; color: #dc2626; }
+.optipix-badge-warning { background: #fef3c7; color: #d97706; }
+
+/* Actions */
+.optipix-action-icon { background: transparent; border: none; color: #adb5bd; cursor: pointer; margin-right: 5px; text-decoration: none;}
+.optipix-action-icon:hover { color: #dc2626; }
+.optipix-regenerate-btn { color: #6366f1 !important; }
+.optipix-regenerate-btn:hover { color: #4f46e5 !important; background: #e0e7ff; border-radius: 4px; }
+
+/* Select2 Overrides */
+.select2-container--default .select2-selection--single { background-color: #f8f9fa; border: 1px solid #ced4da; border-radius: 8px; height: 38px; display: flex; align-items: center; }
+.select2-container--default .select2-selection--single:focus, .select2-container--open .select2-selection--single { border-color: #6366f1; box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1); outline: none; }
+.select2-container--default .select2-selection--single .select2-selection__rendered { color: #495057; font-size: 14px; font-weight: 500; }
+.select2-container--default .select2-selection--single .select2-selection__arrow { height: 36px; }
+.select2-dropdown { border-color: #ced4da; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+.select2-container--default .select2-results__option--highlighted[aria-selected] { background-color: #6366f1 !important; }
+
+/* Pagination */
+.optipix-pagination { margin-top: 20px; display: flex; justify-content: flex-end; gap: 5px; }
+.optipix-pagination a, .optipix-pagination span { padding: 8px 12px; border: 1px solid #e2e4e7; border-radius: 6px; text-decoration: none; color: #495057; font-weight: 500; font-size: 13px; transition: 0.3s; }
+.optipix-pagination .current { background: #6366f1; color: #fff; border-color: #6366f1; }
+.optipix-pagination a:hover { background: #f8f9fa; border-color: #ced4da; }
+
+/* Animations */
+.optipix-spin { animation: optipix-spin 1.5s linear infinite; }
+@keyframes optipix-spin { 100% { transform: rotate(360deg); } }
+
+/* Premium Modal Overlay & Box */
+.optipix-modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; z-index: 99999; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
+.optipix-modal-overlay.show { opacity: 1; visibility: visible; }
+.optipix-modal-box { background: #fff; width: 400px; padding: 30px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); transform: translateY(20px); transition: all 0.3s ease; }
+.optipix-modal-overlay.show .optipix-modal-box { transform: translateY(0); }
+.optipix-modal-box h3 { margin: 0 0 15px 0; font-size: 20px; color: #1d2327; }
+.optipix-modal-box p { color: #6c757d; font-size: 15px; margin-bottom: 25px; }
+.optipix-modal-actions { display: flex; justify-content: flex-end; gap: 10px; }
+.notice{margin-bottom: 30px;}
+
+/* Custom Input Wrappers & Readonly UI */
+.optipix-form-row label { display: block; font-weight: 600; margin-bottom: 8px; color: #495057; }
+.optipix-input-wrapper { position: relative; display: flex; align-items: center; width: 100%; }
+.optipix-input-wrapper input, .optipix-input-wrapper textarea { width: 100%; padding: 12px 15px; border: 1px solid #ced4da; border-radius: 8px; font-size: 14px; background: #fff; transition: border-color 0.3s; padding-right: 80px; }
+.optipix-input-wrapper input:focus, .optipix-input-wrapper textarea:focus { border-color: #6366f1; outline: none; box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1); }
+.optipix-input-wrapper input[readonly], .optipix-input-wrapper textarea[readonly] { background-color: #f1f3f5; color: #6c757d; cursor: not-allowed; border-color: #e9ecef; }
+.optipix-action-btn { position: absolute; background: transparent; border: none; cursor: pointer; color: #adb5bd; padding: 5px; right: 10px; display: flex; align-items: center; justify-content: center; }
+.optipix-toggle-eye { right: 40px; }
+.optipix-action-btn:hover { color: #6366f1; }
+.optipix-textarea-edit { top: 10px; }
+
+/* Custom iOS style Toggles */
+.optipix-control-table th { font-weight: 600; color: #495057; vertical-align: middle; }
+.optipix-control-table td { vertical-align: middle; padding: 15px 10px; }
+.optipix-switch { position: relative; display: inline-block; width: 44px; height: 24px; }
+.optipix-switch input { opacity: 0; width: 0; height: 0; }
+.optipix-slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 24px; }
+.optipix-slider:before { position: absolute; content: ""; height: 18px; width: 18px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%; }
+.optipix-switch input:checked + .optipix-slider { background-color: #6366f1; }
+.optipix-switch input:checked + .optipix-slider:before { transform: translateX(20px); }
+.optipix-length-col select { border-radius: 6px; padding: 4px 8px; border: 1px solid #ced4da; }
